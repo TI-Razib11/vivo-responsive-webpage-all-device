@@ -1,0 +1,183 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+/* Start Header Setion */
+header {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1% 5%;
+    padding-bottom: 0;
+    margin-bottom: -150px;
+}
+.nav-link {
+    background: transparent;
+    margin: 5px 15px;
+    transition: .4s;
+    border-radius: 5px;
+    color: #fff!important;
+    
+}
+.nav-link:hover {
+    background: #658864;
+}
+/* End Header Setion */
+/* Start About Setion */
+#about {
+    background-image: url(img/Background-2.png);
+    background-size: 100%;
+    padding: 170px 0 150px;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+
+}
+.about-img {
+    position: relative;
+    top: 20%;
+}
+.app-part {
+    background-color: #fafafc;
+}
+/* End About Setion */
+/* Start App Setion */
+
+.app-download {
+    background-color: #29e0f1;
+}
+.app-part i {
+    color: #24c7f2;
+}
+  /* End App Setion */
+  /* Start Info Setion */
+  .info-btn {
+    position: relative;
+    top: -25px;
+  }
+  .info-btn a {
+    padding: 15px 60px;
+    background-color: #fa5477;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+
+  }
+  .info-content {
+    margin-top: 20px;
+  }
+  .info-content a {
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.61);
+  }
+
+  .input-group {
+    width: 80%!important;
+  }
+  .info-message input {
+    background-color: #f6f7fb!important;
+    border: none!important;
+  }
+  .info-message button {
+    background-color: #33d2fd;
+  }
+  /* End Info Setion */
+  /* Start Footer */
+  footer {
+    background-color: #233148;
+    padding: 2% 5%;
+    padding-bottom: 0;
+    
+  }
+  .footer p {
+    margin-bottom: 0;
+  }
+  .footer-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .footer-link ul li i {
+    font-size: 20px;
+    color: #fff;
+  }
+  /* End Footer */
+
+/* Media quary */
+@media only screen and (min-width: 992px) { 
+    .about-box-1 {
+        position: relative;
+        left: 50px;  
+    }
+    .about-box-2 {
+        position: relative;
+        top: 70px;  
+    }
+    .about-box-3 {
+        position: relative;
+        top: 80px;
+        
+    }
+    .about-box-4 {
+        position: relative;
+        top: 150px;
+        right: 50px;
+        
+    } 
+ }
+ @media only screen and (min-width: 576px) and ( max-width: 767px) {
+
+#about {
+  padding-bottom: 0;
+  padding-top: 100px;
+}
+   
+   .about-box-3 {
+    padding-top: 1rem;
+   }   
+  }
+  @media only screen and (min-width: 768px) and ( max-width: 991px) {
+
+    #about {
+      padding-bottom: 0;
+      padding-top: 100px;
+    }
+      }
+
+   @media only screen and (max-width:575px) {
+    .about-box {
+      padding-top: 1rem;
+    }
+    #about {
+      padding-bottom: 0;
+      padding-top: 100px;
+    }
+    .footer-link ul li {
+      padding: 0 9px;
+    }
+    .footer-link ul li i {
+      font-size: 14px;
+    }
+    .hero-btn a{
+      font-size: 12px;
+    }
+    .info-btn a {
+      font-size: 16px;
+      padding: 10px 40px;
+    }
+    .input-group {
+      width: 100%!important;
+    }
+    .input-group button {
+      text-transform: capitalize!important;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 20px!important;
+    }
+
+
+
+
+   }  
+ 
